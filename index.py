@@ -1,9 +1,4 @@
-x = 10      # Global variable
-
-def show():
-    global x
-    x = 20  # Local variable
-    print(x)
-
-show()
-print(x)
+def show_details(**kwargs):
+	for key, value in kwargs.items():
+		print( key, ": ",value)
+show_details( name="RAFEEF", age=20, city="Calicut")
