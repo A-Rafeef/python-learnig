@@ -1,9 +1,8 @@
-class Car:
-	def __init__(self,brand, color):
-		self.brand=brand
-		self.color=color
-	def show(self):
-		print( f"Brand: {self.brand}")
-		print( f"color: {self.color}")
-s1=Car("BMW","RED")
-s1.show()
+print=("w")
+marks = [45, 78, 90, 34, 78, 45, 92]
+marks2=set(marks)
+maxv=max(marks2)
+minv=min(marks2)
+print=("w")
+g75 = [ x for x in marks2 if x>75]
+print=("w")
