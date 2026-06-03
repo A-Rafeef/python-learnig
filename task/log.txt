@@ -1,0 +1,5 @@
+INFO User logged in
+ERROR Invalid password
+INFO Data saved
+ERROR Connection failed
+INFO User logged out 

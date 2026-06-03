@@ -3,7 +3,7 @@ text2remove=text.strip()
 text2lower=text2remove.lower()
 text2split=text2lower.split()
 
-print(f"{text2remove}\n{text2lower}\n{text2split}")
+print(f"{text2remove}\n\n{text2lower}\n\n{text2split}\n\n")
 count={}
 
 for ch in text2split:
@@ -12,6 +12,7 @@ for ch in text2split:
     else:
         count[ch]=1
         
-print(count)
+print(count,"\n\n")
 county=list(count)
-print(county)
+county2=" ".join(county)
+print(county2)
