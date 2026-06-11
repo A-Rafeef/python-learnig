@@ -12,7 +12,7 @@ for ch in text2:
     else :
         count[ch]=1
 count0=max(count.values())
-
+print(count)
 for key,value in count.items():
     if count0 ==count.get(key):
         print(key,value)
